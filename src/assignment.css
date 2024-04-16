@@ -1,0 +1,128 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #005ca8;
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 0.75rem;
+    align-items: center;
+    padding-left: 2rem;
+    top: 0;
+}
+.all-india{
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+}
+.search{
+    background-color: white;
+    padding-top: 0.5rem;
+    display: flex;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.buy{
+    display: flex;
+}
+.head-icon-search input{border:2px solid black}
+.fa-map-marker{color: #3592f2}
+.fa-microphone{color: #3592f2}
+.fa-search{color: #3592f2}
+.fa-bars{color: white}
+.post{
+    display: flex;
+    background-color: white;
+    margin: 2rem;
+    width: 20%;
+    justify-content: space-evenly;
+    height: 60%;
+    border-radius: 15px;
+}
+.post h5 a{
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 0.5rem;
+}
+.settings{
+    margin: 2rem;
+}
+main {
+    padding: 20px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5c341ea93e2d09426b42e4a5/1550025541784-I5JT06GH8Y9DEL5N90BP/DSC09065.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 350px;
+}
+/* Search section styles */
+.search-section {
+    background-color: #f9f9f9;
+    margin-top: 170px;
+    padding: 30px 0;
+}
+
+.search-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: #555;
+}
+/* Add this to your existing CSS */
+.featured-properties{
+    margin-top: 60px;
+}
+.property-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.property-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
